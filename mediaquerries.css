@@ -1,0 +1,85 @@
+@media screen  and (max-width:1280px){
+   .header{
+    padding: 0%;
+   } 
+   .row{
+    margin: 0 32px;
+   }
+   .col h2{
+    font-size: 2.7rem;
+   }
+   .col p{
+    font-size: 1.3rem;
+}
+
+#feature3{
+    margin: 0 15%;
+}
+   .FAQ{
+    padding: 72px 3%;
+   }
+   footer{
+    padding: 0;
+    margin: 72px 3%;
+   }
+   .register-bar input{
+    margin-bottom:8px;
+   }
+   .form-enter input{
+    margin-bottom: 8px;
+   }
+
+}
+@media screen  and (max-width:960px){
+    .header-content h1{
+        font-size: 2rem;
+    }
+    .header-content p{
+        font-size: 1.125rem;
+    }
+    .form h3{
+        font-size: 1.125rem;
+    }
+    .header-content{
+        margin-top: 0;
+    }
+    .header{
+        height: 70vh;
+    }
+    .logo{
+        width: 135px;
+    }
+    .row{
+        display: block;
+        text-align: center;
+        
+    }
+    .col h2{
+        font-size: 2rem;
+    }
+    .col p{
+        font-size: 1.125rem;
+    }
+    .col-vid{
+        margin-top: 6rem;
+    }
+    .col-vid video {
+        width: 60%;
+    }
+    .FAQ h2{
+        font-size: 2rem;
+    }
+    .accordion li label{
+        font-size:1.3rem;
+    }
+    label::after{
+        font-size: 2rem;
+    }
+    .accordion input[type="radio"]:checked + label + .content{
+        font-size: 1.2rem;
+    }
+    .register h3 {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}

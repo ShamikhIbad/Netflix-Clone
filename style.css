@@ -10,7 +10,7 @@ body{
 
 }
 .header{
-    height: 700px;
+    height: 76vh;
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(netflix.jpg);
     background-size: cover;
    background-position: center;
@@ -23,10 +23,11 @@ nav{
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+                                        
 }
 .logo{
     width: 180px;
+    padding-left: 5px;
       cursor: pointer;
 }
 nav button{
@@ -40,7 +41,7 @@ nav button{
     font-size: 14px;
     font-weight: 540;
     cursor: pointer;
-    margin-right: 35px;
+    margin-right: 25px;
 }
 .header-content{
  position: absolute;
@@ -48,11 +49,10 @@ nav button{
     left: 50%;
     transform: translate(-50%,-50%);
        text-align: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .header-content h1{
-    width: 1000px;
-font-size: 2.9rem;
+font-size: 2.6rem;
 font-weight: 900;
 
 }
@@ -65,9 +65,11 @@ margin: 16px 0px 0px;
     margin-top: 20px;
 }
 .form-enter{
+    width: fit-content;
     display: flex;
     text-align: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .form h3{
@@ -78,17 +80,18 @@ margin: 16px 0px 0px;
 
 }
 .form input{
-    width: 332px;
+    width: 360px;
     height: 55px;
     border: 1px solid rgb(123, 123, 123);
     outline: 0;
     border-radius: 4px;
-    background-color: transparent;
+     background-color: transparent;
+    color: white;
     padding-left: 10px;
  
 }
 .form button{
-    width: 209px;
+    width: 205px;
     height: 56px;
     border: 0;
     outline: 0;
@@ -96,7 +99,7 @@ margin: 16px 0px 0px;
     background-color:#db0001 ;
     color: #fff;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 500;
     cursor: pointer;
     margin-left: 10px;
   
@@ -111,19 +114,21 @@ hr{
 }
 .features{
 font-size: 24px;
-padding: 50px 20%;
+padding: 72px 0;
 }
 .row{
    display: flex;
-   width: 100%;
    align-items: center;
    flex-wrap: wrap;
-   padding: 50px 0;
+    margin: 0 20%;
 }
 .col{
     flex-basis: 50%;
     margin-bottom: 20px;
 
+}
+#feature1{
+    padding: 50px 0;
 }
 .col h2{
 font-size: 3rem;
@@ -213,9 +218,9 @@ input[type="radio"]{
 }
 .register-bar{
     display: flex;
-height: 56px;
-justify-content: center;
-margin-top: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 16px;
 }
 .register-bar input{
     width: 374px;
@@ -223,11 +228,13 @@ margin-top: 16px;
     border: none;
     padding: 24px 16px 8px;
     font-size: 15px;
-    background: none;
+    color: white;
+    background-color: transparent;
     border: 1px solid #626161;
 }
 .register-bar button{
-    width: 203px;
+    width: 200px;
+    height: 50px;
     font-size: 19px;
     font-weight: 600;
     color: #fff;
@@ -242,8 +249,8 @@ margin-top: 16px;
 
 
 footer{
-    margin: 72px 317px;
-    padding: 0px 48px;
+    margin: 72px 10%;
+    padding-left:10%;
     text-decoration: none;
 }
 footer a{
@@ -254,12 +261,13 @@ footer a{
 
 footer ul{
     display: flex;
-    justify-content:space-between;
-  
+    gap: 15%;
+    flex-wrap: wrap;
 }
 
 footer li{
      list-style: none;
+   
 }
 footer li a{
     display: block;
@@ -285,12 +293,4 @@ footer p{
     font-size: 14px;
     color: #b7b6b6;
 }
-/* -----------media queries for small screens---------------- */
 
-@media only  screen  and (max-width:600px){
-
-    .logo{
-        width: 100px;
-    }
-}
-    
