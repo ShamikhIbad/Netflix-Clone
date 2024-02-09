@@ -16,7 +16,10 @@
     margin: 0 15%;
 }
    .FAQ{
-    padding: 72px 3%;
+    padding: 72px 0;
+   }
+   .accordion{
+    width: 95vw;
    }
    footer{
     padding: 0;
@@ -41,7 +44,7 @@
         font-size: 1.125rem;
     }
     .header-content{
-        margin-top: 0;
+        padding: 100px 0;
     }
     .header{
         height: 70vh;
@@ -82,4 +85,18 @@
         font-size: 1rem;
         font-weight: 500;
     }
+}
+@media screen and (max-width:600px){
+    .header-content{
+        padding: 50px 0;
+    }
+    .form-enter button , .register-bar button{
+        width: 160px;
+        height: 48px;
+    }
+    
+    .form-enter input, .register-bar input{
+        width: 70vw;
+    }
+    
 }
