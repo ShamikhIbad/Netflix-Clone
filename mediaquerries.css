@@ -1,4 +1,7 @@
 @media screen  and (max-width:1280px){
+    nav{
+     margin: 0 2%;
+    }
    .header{
     padding: 0%;
    } 
@@ -11,8 +14,7 @@
    .col p{
     font-size: 1.3rem;
 }
-
-#feature3{
+   #feature3{
     margin: 0 15%;
 }
    .FAQ{
@@ -46,9 +48,7 @@
     .header-content{
         padding: 100px 0;
     }
-    .header{
-        height: 70vh;
-    }
+   
     .logo{
         width: 135px;
     }
@@ -93,6 +93,7 @@
     .form-enter button , .register-bar button{
         width: 160px;
         height: 48px;
+        margin-left: 0px;
     }
     
     .form-enter input, .register-bar input{
